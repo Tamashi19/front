@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,34 @@
 <body>
     <header>
         <div class="container">
-        <img src="assets/logo.png" alt="logo de uma lampada dos desejos" />
+          
+        <img onclick="funcao1" src="assets/logo.png" alt="logo de uma lampada dos desejos" />
+    
     </div>
     </header>
     <main>
-        <img src="assets/smoke.gif" alt="efeito de fumaça do gênio">
+        <!-- <img class="lampada" src="assets/lampada.png" alt=""> -->
+        <img class="smoke" src="assets/smoke.gif" alt="efeito de fumaça do gênio">
+        <div class="blur"></div>
+        <section  class="container " >
+            <div class="cadastro">
+            <input type="text" name="" id="" placeholder="Titulo do desejo">
+            <textarea  cols="30" rows="10" placeholder="Escreva aqui seu desejo"></textarea>
+        </div>
+
+            <div class="listagem">
+
+                <table>
+                    <thead>
+                        <th>Título</th>
+                        <th>Desejos</th>
+                    </thead>
+                </table>
+        </div>
+        </section>
 
     </main>
     <footer></footer>
+    
 </body>
 </html>
